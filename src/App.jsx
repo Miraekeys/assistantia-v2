@@ -78,15 +78,15 @@ const sb = {
 // ============================================================
 const N8N_BASE = "http://178.104.84.46:5678/webhook";
 const AGENTS_CONFIG = {
-  eclaireur:   { id: "eclaireur",   name: "L'Éclaireur",  emoji: "🧭", cls: "Chef de Projet",       color: "#378ADD", webhook: "eclaireur-uuid",   skills: ["Orchestration","Coordination","Analyse de projet"] },
-  stratege:    { id: "stratege",    name: "Le Stratège",   emoji: "🏰", cls: "Grand Stratège",        color: "#639922", webhook: "stratege-uuid",    skills: ["Stratégie contenu","Pipeline","Planification"] },
-  oracle:      { id: "oracle",      name: "L'Oracle",      emoji: "📡", cls: "Voyant des Tendances",  color: "#F4A261", webhook: "oracle-uuid",      skills: ["Veille","Alertes","Tendances"] },
-  conteur:     { id: "conteur",     name: "Le Conteur",    emoji: "🎭", cls: "Barde Scénariste",      color: "#D4537E", webhook: "conteur-uuid",     skills: ["Scripts","Storytelling","Rédaction"] },
-  heraut:      { id: "heraut",      name: "Le Héraut",     emoji: "📣", cls: "Héraut Marketing",      color: "#7F77DD", webhook: "heraut-uuid",      skills: ["Marketing","Réseaux sociaux","SEO"] },
-  analyste:    { id: "analyste",    name: "L'Analyste",    emoji: "📊", cls: "Maître des Chiffres",   color: "#1D9E75", webhook: "analyste-uuid",    skills: ["Data","KPI","Performances"] },
-  alchimiste:  { id: "alchimiste",  name: "L'Alchimiste",  emoji: "🏪", cls: "Marchand Alchimiste",   color: "#7F77DD", webhook: "alchimiste-uuid",  skills: ["E-commerce","Conversion","Tunnel de vente"] },
+  eclaireur:   { id: "eclaireur",   name: "L'Éclaireur",  emoji: "🧭", cls: "Chef de Projet",       color: "#378ADD", webhook: "8ef6e565-4d52-47ce-ae4b-26c5f679998c",   skills: ["Orchestration","Coordination","Analyse de projet"] },
+  stratege:    { id: "stratege",    name: "Le Stratège",   emoji: "🏰", cls: "Grand Stratège",        color: "#639922", webhook: "4b896da9-ad76-43e2-8961-7efcd4b6efac",    skills: ["Stratégie contenu","Pipeline","Planification"] },
+  oracle:      { id: "oracle",      name: "L'Oracle",      emoji: "📡", cls: "Voyant des Tendances",  color: "#F4A261", webhook: "33d10308-a3c0-4aa1-9367-31759a073e26",      skills: ["Veille","Alertes","Tendances"] },
+  conteur:     { id: "conteur",     name: "Le Conteur",    emoji: "🎭", cls: "Barde Scénariste",      color: "#D4537E", webhook: "8ef6e565-4d52-47ce-ae4b-26c5f679998c",     skills: ["Scripts","Storytelling","Rédaction"] },
+  heraut:      { id: "heraut",      name: "Le Héraut",     emoji: "📣", cls: "Héraut Marketing",      color: "#7F77DD", webhook: "867d9d3c-0f7a-43b7-bc97-faf7e958119a",      skills: ["Marketing","Réseaux sociaux","SEO"] },
+  analyste:    { id: "analyste",    name: "L'Analyste",    emoji: "📊", cls: "Maître des Chiffres",   color: "#1D9E75", webhook: "91201aa8-86d1-49b9-bbce-cad66c23f3b0",    skills: ["Data","KPI","Performances"] },
+  alchimiste:  { id: "alchimiste",  name: "L'Alchimiste",  emoji: "🏪", cls: "Marchand Alchimiste",   color: "#7F77DD", webhook: "54a08eea-be14-415c-9a05-f53ab66e5490",  skills: ["E-commerce","Conversion","Tunnel de vente"] },
 };
-const PIPELINE_WEBHOOK = "b2f30187-pipeline-uuid";
+const PIPELINE_WEBHOOK = "b2f30187-5665-4c57-995a-f0073320e26f";
 
 const SECTION_COLORS = {
   bibliotheque: { main: "#00B4D8", bg: "rgba(0,180,216,0.1)", border: "rgba(0,180,216,0.35)" },
